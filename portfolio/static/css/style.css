@@ -425,6 +425,7 @@ body > section:nth-child(7){
 
 .img__svg__form{
     width:20%;
+    margin: auto;
 }
 
 .form{  
