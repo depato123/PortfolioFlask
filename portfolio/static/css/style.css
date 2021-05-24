@@ -412,10 +412,57 @@ body > section.projects__fondo > div{
 }
 
 
+/*/ Formulario /*/
+.contact__div{
+    display: flex;
+    border: 1px red solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__svg__form{
+    width:35%;
+}
+
+.form{  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo{
+    margin-bottom: 15px;
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.campo span{
+   width: 20%;
+   margin: auto;
+}
+
+
+.campo input{
+    width: 100%;
+}
+
+.form .campo:last-child input{
+    height: 100px;
+}
+
+.campo span{
+    font-size: 30px;
+}
 
 
 
 /* foter /*/
+
 
 .footer{
     background: #000;
