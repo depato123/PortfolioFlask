@@ -428,10 +428,10 @@ body > section.projects__fondo > div{
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .campo{
+    margin: auto;
     margin-bottom: 15px;
     width: 45%;
     display: flex;
@@ -441,10 +441,6 @@ body > section.projects__fondo > div{
 
 }
 
-.campo span{
-   width: 20%;
-   margin: auto;
-}
 
 
 .campo input{
@@ -456,7 +452,8 @@ body > section.projects__fondo > div{
 }
 
 .campo span{
-    font-size: 30px;
+    margin: auto;
+    font-size: 25px;
 }
 
 
